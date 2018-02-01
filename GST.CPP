@@ -1,0 +1,23 @@
+//4.Write a program which input value of good, rate(18%) from user and calculate //Goods and Service Tax.
+#include<iostream.h>
+#include<conio.h>
+int main()
+{
+
+	float amt,GST,rate;
+	cout<<"\n----------------------------\n";
+	cout<<"\n Enter amount of goods \n";
+	cin>>amt;
+	cout<<"\n The amount is ::"<<amt;
+	cout<<"\n Enter rate \n";
+	cin>>rate;
+	cout<<"\n The rate is ::"<<rate;
+	GST=(amt*rate)/100;
+	cout<<"\n The goods and service tax is ::"<<GST;
+     cout<<"\n----------------------------\n";
+
+
+
+	getch();
+	return 0;
+}
